@@ -1,0 +1,2 @@
+# IdentityServer4
+IdentityServer4简单使用 可以常考我的笔记IdentityServer4的 正常启动就可以 需要配置数据库连接默认数据也添加 添加了一个基础用户登录
