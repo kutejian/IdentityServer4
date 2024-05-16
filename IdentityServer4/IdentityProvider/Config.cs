@@ -93,12 +93,12 @@ namespace IdentityProvider
         public static List<TestUser> Get()
         {
             return new List<TestUser>
-            {
+            {                        //√‹¬Î…Ë÷√“™◊„πª∏¥‘”£¨∑Ò‘Úª·±®¥Ì
                 new TestUser
                 {
                     SubjectId = "5BE86359-073C-434B-AD2D-A3932222DABE",
                     Username = "scott",
-                    Password = "password",
+                    Password = "scott123!",
                     Claims = new List<Claim>
                     {
                         new Claim(JwtClaimTypes.Email, "scott@scottbrady91.com"),
@@ -109,7 +109,7 @@ namespace IdentityProvider
                 {
                     SubjectId = "1BE86359-073C-434B-AD2D-A3932222DABE",
                     Username = "scott2",
-                    Password = "password2",
+                    Password = "scott2123!",
                     Claims = new List<Claim>
                     {
                         new Claim(JwtClaimTypes.Email, "scott@qq.com"),

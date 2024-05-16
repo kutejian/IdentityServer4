@@ -119,7 +119,7 @@ namespace IdentityProvider
                             Id = testUser.SubjectId
                         };
 
-                        userManager.CreateAsync(identityUser, "Password123!").Wait();
+                        userManager.CreateAsync(identityUser, testUser.Password).Wait();
                         userManager.AddClaimsAsync(identityUser, testUser.Claims.ToList()).Wait();
                     }
                 }
